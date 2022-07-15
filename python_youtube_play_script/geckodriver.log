@@ -1,0 +1,22 @@
+1657781935930	geckodriver	INFO	Listening on 127.0.0.1:60518
+1657781938972	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "60519" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\panai\\AppData\\Local\\Temp\\rust_mozprofilePZ8uDU"
+*** You are running in headless mode.
+1657781939314	Marionette	INFO	Marionette enabled
+1657781939317	Marionette	INFO	Listening on port 60528
+WebDriver BiDi listening on ws://localhost:60519
+Read port: 60528
+1657781939479	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\panai\\AppData\\Local\\Temp\\rust_mozprofilePZ8uDU\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60519/devtools/browser/53acfe39-a673-4c51-ac6d-a1a1cb3a1f18
+1657782011532	geckodriver	INFO	Listening on 127.0.0.1:60677
+1657782014577	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "60678" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\panai\\AppData\\Local\\Temp\\rust_mozprofile8sQT9V"
+*** You are running in headless mode.
+1657782014822	Marionette	INFO	Marionette enabled
+1657782014825	Marionette	INFO	Listening on port 60687
+WebDriver BiDi listening on ws://localhost:60678
+Read port: 60687
+1657782014962	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\panai\\AppData\\Local\\Temp\\rust_mozprofile8sQT9V\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60678/devtools/browser/0b078b7e-0df4-4cf8-b20e-7060d7bd6988
