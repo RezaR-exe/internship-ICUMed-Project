@@ -15,9 +15,12 @@ driver.get("https://www.youtube.com")
 # finding and pressing the "accept all" button for youtube's cookies
 
 def accept_cookies():
-    accept_button = WebDriverWait(driver, 2).until(EC.element_to_be_clickable((By.XPATH, "/html/body/ytd-app/ytd-consent-bump-v2-lightbox/tp-yt-paper-dialog/div[4]/div[2]/div[6]/div[1]/ytd-button-renderer[2]/a/tp-yt-paper-button")))
-    accept_button.click()
-    time.sleep(2)
+    try:
+        accept_button = WebDriverWait(driver, 2).until(EC.element_to_be_clickable((By.XPATH, "/html/body/ytd-app/ytd-consent-bump-v2-lightbox/tp-yt-paper-dialog/div[4]/div[2]/div[6]/div[1]/ytd-button-renderer[2]/a/tp-yt-paper-button")))
+        accept_button.click()
+        time.sleep(2)
+    except:
+        pass
 
 # finding and searching anything on youtube's input search bar by sending the keys, here we need to wait 2 seconds after accepting youtube's cookies for the page to fully load
 
