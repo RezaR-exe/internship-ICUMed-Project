@@ -8,4 +8,7 @@ YOU NEED FFMPEG TO RUN THIS PROGRAM:
 Please download it here and follow the instructions in the
 documentation:
 
+COPY THE CONTENTS (EXECUTABLES) FROM THE BIN FILE INTO YOUR ROOT FOLDER (WHERE MAIN.PY IS LOCATED)
+
+
 https://ffmpeg.org/download.html
